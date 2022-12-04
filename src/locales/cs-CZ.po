@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: uniswap-interface\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2022-11-17 01:33\n"
+"PO-Revision-Date: 2022-12-02 22:04\n"
 "Last-Translator: \n"
 "Language: cs_CZ\n"
 "Language-Team: Czech\n"
@@ -132,7 +132,6 @@ msgstr "K podání návrhů je nutná minimální hranice 0,25% z celkové nabí
 msgid "A swap of this size may have a high price impact, given the current liquidity in the pool. There may be a large difference between the amount of your input token and what you will receive in the output token"
 msgstr "Swap této velikosti může mít vysoký dopad na cenu vzhledem k aktuální likviditě v poolu. Mezi množstvím vašeho vstupního tokenu a tím, co obdržíte ve výstupním tokenu, může být velký rozdíl"
 
-#: src/components/Menu/index.tsx
 #: src/components/Tokens/TokenDetails/About.tsx
 msgid "About"
 msgstr "O aplikaci"
@@ -197,6 +196,7 @@ msgid "Added"
 msgstr "Přidal"
 
 #: src/nft/components/collection/CollectionAsset.tsx
+#: src/nft/components/profile/view/ViewMyNftsAsset.tsx
 msgid "Added to bag"
 msgstr ""
 
@@ -289,10 +289,6 @@ msgstr "Schvalování"
 msgid "Approving {0}"
 msgstr "Schvalování {0}"
 
-#: src/components/DowntimeWarning/index.tsx
-msgid "Arbitrum is in Beta and may experience downtime. During downtime, your position will not earn fees and you will be unable to remove liquidity. <0>Read more.</0>"
-msgstr "Arbitrum je ve verzi beta a může dojít k prostojům. Během odstávky nebude vaše pozice vydělávat poplatky a nebudete moci odstranit likviditu. <0> Přečtěte si více.</0>"
-
 #: src/components/Settings/index.tsx
 msgid "Are you sure?"
 msgstr "Jste si jisti?"
@@ -358,6 +354,14 @@ msgstr "Blokovaná adresa"
 msgid "Blocked from trading"
 msgstr ""
 
+#: src/nft/components/nftExploreBanner/NftExploreBanner.tsx
+msgid "Buy and sell NFTs across more listings at better prices."
+msgstr ""
+
+#: src/nft/components/details/AssetActivity.tsx
+msgid "By"
+msgstr ""
+
 #: src/components/PositionCard/index.tsx
 msgid "By adding liquidity you'll earn 0.3% of all trades on this pair proportional to your share of the pool. Fees are added to the pool, accrue in real time and can be claimed by withdrawing your liquidity."
 msgstr "Přidáním likvidity získáte 0,3 % všech obchodů na tomto páru úměrně k vašemu podílu na fondu. K fondu budou přičítány poplatky, nabíhají v reálném čase a lze si je nárokovat výběrem likvidity."
@@ -398,7 +402,6 @@ msgstr "Nárokovat"
 msgid "Claim <0/> for {0}"
 msgstr "Získejte <0/> za {0}"
 
-#: src/components/Menu/index.tsx
 #: src/components/claim/AddressClaimModal.tsx
 #: src/components/claim/ClaimModal.tsx
 #: src/components/claim/ClaimModal.tsx
@@ -412,6 +415,10 @@ msgstr "Nárokujte si žeton UNI"
 #: src/components/AccountDetails/TransactionSummary.tsx
 msgid "Claim UNI reward for {0}"
 msgstr "Získejte odměnu UNI za {0}"
+
+#: src/components/WalletDropdown/AuthenticatedHeader.tsx
+msgid "Claim Uniswap NFT Airdrop"
+msgstr ""
 
 #: src/pages/Pool/PositionPage.tsx
 msgid "Claim fees"
@@ -577,13 +584,11 @@ msgid "Contract address"
 msgstr "Adresa smlouvy"
 
 #: src/components/WalletDropdown/AuthenticatedHeader.tsx
-#: src/nft/components/profile/view/ProfileAccountDetails.tsx
 #: src/theme/components/index.tsx
 msgid "Copied!"
 msgstr "Zkopírováno!"
 
 #: src/components/WalletDropdown/AuthenticatedHeader.tsx
-#: src/nft/components/profile/view/ProfileAccountDetails.tsx
 msgid "Copy"
 msgstr "kopírovat"
 
@@ -649,10 +654,6 @@ msgstr "Aktuální cena"
 #: src/pages/AddLiquidity/index.tsx
 msgid "Current {0} Price:"
 msgstr "Aktuální {0} cena:"
-
-#: src/components/Menu/index.tsx
-msgid "Dark Theme"
-msgstr "Tmavé téma"
 
 #: src/components/WalletDropdown/DefaultMenu.tsx
 msgid "Dark theme"
@@ -721,10 +722,6 @@ msgstr "Probíhá ukládání likvidity"
 msgid "Description"
 msgstr "Popis"
 
-#: src/nft/components/profile/view/ViewMyNftsAsset.tsx
-msgid "Deselected"
-msgstr ""
-
 #: src/pages/RemoveLiquidity/index.tsx
 msgid "Detailed"
 msgstr "Podrobně"
@@ -738,17 +735,9 @@ msgstr "Podrobnosti"
 msgid "Disconnect"
 msgstr "Odpojit"
 
-#: src/components/Menu/index.tsx
-msgid "Discord"
-msgstr "Discord"
-
 #: src/components/TransactionConfirmationModal/index.tsx
 msgid "Dismiss"
 msgstr "Zamítnout"
-
-#: src/components/Menu/index.tsx
-msgid "Docs"
-msgstr "Dokumenty"
 
 #: src/components/NavBar/MenuDropdown.tsx
 msgid "Documentation"
@@ -757,10 +746,6 @@ msgstr "Dokumentace"
 #: src/pages/MigrateV2/index.tsx
 msgid "Don’t see one of your v2 positions? <0>Import it.</0>"
 msgstr "Nevidíte některou ze svých pozic v2? <0>Importujte ji.</0>"
-
-#: src/nft/components/profile/view/ViewMyNftsAsset.tsx
-msgid "ERC-1155 support coming soon"
-msgstr ""
 
 #: src/components/vote/DelegateModal.tsx
 msgid "Earned UNI tokens represent voting shares in Uniswap governance."
@@ -823,6 +808,10 @@ msgstr "Odhad se může lišit v závislosti na nastavení vaší peněženky"
 msgid "Estimated network fee"
 msgstr "Odhadovaný poplatek za síť"
 
+#: src/nft/components/details/AssetActivity.tsx
+msgid "Event"
+msgstr ""
+
 #: src/components/vote/ExecuteModal.tsx
 #: src/pages/Vote/VotePage.tsx
 msgid "Execute"
@@ -872,9 +861,17 @@ msgstr "Vypršela"
 msgid "Explore"
 msgstr "Prozkoumat"
 
+#: src/nft/components/nftExploreBanner/NftExploreBanner.tsx
+msgid "Explore NFTs"
+msgstr ""
+
 #: src/pages/Pool/CTACards.tsx
 msgid "Explore Uniswap Analytics."
 msgstr "Prozkoumejte Uniswap Analytics."
+
+#: src/components/Tokens/TokenDetails/InvalidTokenDetails.tsx
+msgid "Explore tokens"
+msgstr ""
 
 #: src/components/Popups/FailedNetworkSwitchPopup.tsx
 msgid "Failed to switch networks from the Uniswap Interface. In order to use Uniswap on {0}, you must change the network in your wallet."
@@ -927,10 +924,6 @@ msgstr "Pozice v celém rozsahu mohou vydělávat méně poplatků než koncentr
 #: src/components/ErrorBoundary/index.tsx
 msgid "Get support on Discord"
 msgstr "Získejte podporu o Discord"
-
-#: src/components/Menu/index.tsx
-msgid "Help Center"
-msgstr "Centrum nápovědy"
 
 #: src/components/NavBar/MenuDropdown.tsx
 msgid "Help center"
@@ -1009,6 +1002,10 @@ msgstr "Nedostatečný zůstatek {0}"
 msgid "Interface Settings"
 msgstr "Nastavení rozhraní"
 
+#: src/nft/components/nftExploreBanner/NftExploreBanner.tsx
+msgid "Introducing NFTs on Uniswap"
+msgstr ""
+
 #: src/state/mint/hooks.tsx
 #: src/state/mint/v3/hooks.tsx
 msgid "Invalid pair"
@@ -1032,7 +1029,6 @@ msgstr "Vybrán neplatný rozsah. Minimální cena musí být nižší než maxi
 msgid "Invalid recipient"
 msgstr "Neplatný příjemce"
 
-#: src/components/Menu/index.tsx
 #: src/components/WalletDropdown/DefaultMenu.tsx
 #: src/components/WalletDropdown/LanguageMenu.tsx
 msgid "Language"
@@ -1053,15 +1049,10 @@ msgstr "Zjistěte více o poskytování likvidity"
 msgid "Learn more"
 msgstr "Zjistěte více"
 
-#: src/components/Menu/index.tsx
 #: src/components/NavBar/MenuDropdown.tsx
 #: src/components/PrivacyPolicy/index.tsx
 msgid "Legal & Privacy"
 msgstr "Právní otázky a soukromí"
-
-#: src/components/Menu/index.tsx
-msgid "Light Theme"
-msgstr "Lehké téma"
 
 #: src/components/WalletDropdown/DefaultMenu.tsx
 msgid "Light theme"
@@ -1139,10 +1130,6 @@ msgstr "Maximálně:"
 #: src/components/swap/AdvancedSwapDetails.tsx
 msgid "Maximum sent"
 msgstr "Maximum odeslané"
-
-#: src/components/Menu/index.tsx
-msgid "Menu"
-msgstr "Jídelní lístek"
 
 #: src/components/PositionCard/Sushi.tsx
 #: src/components/PositionCard/V2.tsx
@@ -1223,10 +1210,6 @@ msgstr "Síťový poplatek"
 msgid "Network Warning"
 msgstr "Varování sítě"
 
-#: src/components/swap/SwapWarningDropdown.tsx
-msgid "Network fees exceed 50% of the swap amount!"
-msgstr "Síťové poplatky přesahují 50 % swapové částky!"
-
 #: src/pages/Pool/index.tsx
 msgid "New Position"
 msgstr "Nová pozice"
@@ -1299,10 +1282,6 @@ msgstr "Až budete spokojeni se sazbou, klikněte na zásobu pro kontrolu."
 #: src/pages/Vote/VotePage.tsx
 msgid "Only UNI votes that were self delegated or delegated to another address before block {0} are eligible for voting."
 msgstr "Způsobilé k hlasování jsou jen hlasy UNI, které byly delegovány sobě nebo delegovány na jinou adresu před blokem {0}."
-
-#: src/components/DowntimeWarning/index.tsx
-msgid "Optimism is in Beta and may experience downtime. Optimism expects planned downtime to upgrade the network in the near future. During downtime, your position will not earn fees and you will be unable to remove liquidity. <0>Read more.</0>"
-msgstr "Optimismus je v beta verzi a může dojít k výpadkům. Optimism očekává, že plánované odstávky upgradují síť v blízké budoucnosti. Během výpadku nebude vaše pozice vydělávat poplatky a nebudete moci odstranit likviditu. <0>Přečtěte si více.</0>"
 
 #: src/components/Badge/RangeBadge.tsx
 msgid "Out of range"
@@ -1397,6 +1376,7 @@ msgstr "Populární tokeny"
 msgid "Preview"
 msgstr "Náhled"
 
+#: src/nft/components/details/AssetActivity.tsx
 #: src/pages/RemoveLiquidity/index.tsx
 msgid "Price"
 msgstr "Cena"
@@ -1554,6 +1534,7 @@ msgid "Removed"
 msgstr "Odebráno"
 
 #: src/nft/components/collection/CollectionAsset.tsx
+#: src/nft/components/profile/view/ViewMyNftsAsset.tsx
 msgid "Removed from bag"
 msgstr ""
 
@@ -1569,23 +1550,19 @@ msgstr "Odstraňování {0} {1} a {2} {3}"
 msgid "Removing {0} {1} and{2} {3}"
 msgstr "Odebírání {0} {1} a{2} {3}"
 
-#: src/components/Menu/index.tsx
-msgid "Request Features"
-msgstr "Vyžádejte si funkce"
-
 #: src/components/TransactionConfirmationModal/index.tsx
 #: src/components/TransactionConfirmationModal/index.tsx
 #: src/pages/CreateProposal/ProposalSubmissionModal.tsx
 msgid "Return"
 msgstr "Návrat"
 
+#: src/components/NavBar/SearchBar.tsx
+msgid "Search"
+msgstr ""
+
 #: src/components/SearchModal/CurrencySearch.tsx
 msgid "Search name or paste address"
 msgstr "Vyhledejte název nebo vložte adresu"
-
-#: src/components/NavBar/SearchBar.tsx
-msgid "Search tokens"
-msgstr "Hledat tokeny"
 
 #: src/components/NavBar/SearchBar.tsx
 msgid "Search tokens and NFT collections"
@@ -1615,10 +1592,6 @@ msgstr "Vyberte akci"
 msgid "Select token"
 msgstr "Vyberte token"
 
-#: src/nft/components/profile/view/ViewMyNftsAsset.tsx
-msgid "Selected"
-msgstr ""
-
 #: src/pages/AddLiquidity/index.tsx
 msgid "Selected Range"
 msgstr "Vybraný rozsah"
@@ -1634,6 +1607,10 @@ msgstr "Sobě delegovat"
 #: src/nft/components/bag/BagHeader.tsx
 msgid "Sell"
 msgstr "Prodat"
+
+#: src/nft/components/profile/view/ViewMyNftsAsset.tsx
+msgid "Selling ERC-1155s coming soon"
+msgstr ""
 
 #: src/pages/AddLiquidity/index.tsx
 #: src/pages/AddLiquidity/index.tsx
@@ -1784,14 +1761,6 @@ msgstr "Symbol nenalezen"
 msgid "TVL"
 msgstr "TVL"
 
-#: src/components/Popups/SurveyPopup.tsx
-msgid "Take a 10 minute survey to help us improve your experience in the Uniswap app."
-msgstr "Udělejte si 10minutový průzkum, který nám pomůže zlepšit vaši zkušenost s aplikací Uniswap."
-
-#: src/components/Popups/SurveyPopup.tsx
-msgid "Tell us what you think ↗"
-msgstr "Řekněte nám, co si myslíte ↗"
-
 #: src/components/Popups/ClaimPopup.tsx
 msgid "Thanks for being part of the Uniswap community <0/>"
 msgstr "Děkujeme, že jste součástí komunity Uniswap <0/>"
@@ -1831,10 +1800,6 @@ msgstr "Aplikace bezpečně shromažďuje adresu vaší peněženky a sdílí ji
 #: src/components/WalletModal/PendingView.tsx
 msgid "The connection attempt failed. Please click try again and follow the steps to connect in your wallet."
 msgstr "Pokus o připojení se nezdařil. Klikněte prosím na zkusit znovu a postupujte podle pokynů pro připojení v peněžence."
-
-#: src/components/swap/SwapWarningDropdown.tsx
-msgid "The cost of sending this transaction is more than half of the value of the input amount."
-msgstr "Náklady na odeslání této transakce jsou více než polovina hodnoty vstupní částky."
 
 #: src/components/Polling/index.tsx
 msgid "The current fast gas amount for sending a transaction on L1. Gas fees are paid in Ethereum's native currency Ether (ETH) and denominated in GWEI."
@@ -1905,6 +1870,10 @@ msgstr "Tato adresa je v rozhraní Uniswap Labs blokována, protože je přidru�
 msgid "This app uses the following third-party APIs:"
 msgstr "Tato aplikace používá následující rozhraní API třetích stran:"
 
+#: src/nft/components/collection/CollectionAsset.tsx
+msgid "This item is not for sale"
+msgstr ""
+
 #: src/pages/AddLiquidity/index.tsx
 msgid "This pool must be initialized before you can add liquidity. To initialize, select a starting price for the pool. Then, enter your liquidity price range and deposit amount. Gas fees will be higher than usual due to the initialization transaction."
 msgstr "Tento fond musí být inicializován, než budete moci přidat likviditu. Chcete-li inicializovat, vyberte počáteční cenu fondu. Poté zadejte rozsah cen likvidity a částku vkladu. Poplatky za plyn budou kvůli inicializační transakci vyšší než obvykle."
@@ -1916,6 +1885,14 @@ msgstr "Tento návrh může být proveden po {0}."
 #: src/components/swap/SwapRoute.tsx
 msgid "This route optimizes your total output by considering split routes, multiple hops, and the gas cost of each step."
 msgstr "Tato trasa optimalizuje váš celkový výkon zohledněním rozdělených tras, více skoků a nákladů na plyn v každém kroku."
+
+#: src/components/Tokens/TokenDetails/InvalidTokenDetails.tsx
+msgid "This token doesn't exist"
+msgstr ""
+
+#: src/components/Tokens/TokenDetails/InvalidTokenDetails.tsx
+msgid "This token doesn't exist on {chainName}"
+msgstr ""
 
 #: src/components/Tokens/TokenDetails/PriceChart.tsx
 msgid "This token doesn't have chart data because it hasn't been traded on Uniswap v3"
@@ -1933,6 +1910,11 @@ msgstr "Tato transakce nebude úspěšná z důvodu cenového pohybu. Zkuste zv�
 msgid "This transaction will not succeed either due to price movement or fee on transfer. Try increasing your slippage tolerance."
 msgstr "Tato transakce nebude úspěšná buďto z důvodu pohybu ceny, nebo z důvodu poplatku za převod. Zkuste zvýšit svou toleranci skluzu."
 
+#: src/nft/components/details/AssetActivity.tsx
+msgid "Time"
+msgstr ""
+
+#: src/nft/components/details/AssetActivity.tsx
 #: src/pages/CreateProposal/ProposalActionDetail.tsx
 #: src/pages/CreateProposal/ProposalActionDetail.tsx
 #: src/pages/Swap/index.tsx
@@ -2377,10 +2359,6 @@ msgstr "V tomto fondu zatím nemáte likviditu."
 #: src/components/Polling/ChainConnectivityWarning.tsx
 msgid "You may have lost your network connection."
 msgstr "Možná jste ztratili připojení k síti."
-
-#: src/components/swap/SwapWarningDropdown.tsx
-msgid "You might consider waiting until the network fees go down to complete this transaction."
-msgstr "Pro dokončení této transakce můžete zvážit vyčkávání, dokud síťové poplatky neklesnou."
 
 #: src/pages/MigrateV2/MigrateV2Pair.tsx
 msgid "You must connect an account."

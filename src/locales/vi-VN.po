@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: uniswap-interface\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2022-11-17 01:33\n"
+"PO-Revision-Date: 2022-12-02 22:04\n"
 "Last-Translator: \n"
 "Language: vi_VN\n"
 "Language-Team: Vietnamese\n"
@@ -132,7 +132,6 @@ msgstr "Yêu cầu ngưỡng tối thiểu 0,25% tổng nguồn cung cấp UNI �
 msgid "A swap of this size may have a high price impact, given the current liquidity in the pool. There may be a large difference between the amount of your input token and what you will receive in the output token"
 msgstr "Một giao dịch hoán đổi ở quy mô này có thể có tác động đến giá cao, do tính thanh khoản hiện tại của nhóm. Có thể có sự khác biệt lớn giữa số lượng mã thông báo đầu vào của bạn và những gì bạn sẽ nhận được trong mã thông báo đầu ra"
 
-#: src/components/Menu/index.tsx
 #: src/components/Tokens/TokenDetails/About.tsx
 msgid "About"
 msgstr "Giới thiệu"
@@ -197,6 +196,7 @@ msgid "Added"
 msgstr "Thêm"
 
 #: src/nft/components/collection/CollectionAsset.tsx
+#: src/nft/components/profile/view/ViewMyNftsAsset.tsx
 msgid "Added to bag"
 msgstr ""
 
@@ -289,10 +289,6 @@ msgstr "Đang phê duyệt"
 msgid "Approving {0}"
 msgstr "Đang phê duyệt {0}"
 
-#: src/components/DowntimeWarning/index.tsx
-msgid "Arbitrum is in Beta and may experience downtime. During downtime, your position will not earn fees and you will be unable to remove liquidity. <0>Read more.</0>"
-msgstr "Arbitrum đang ở giai đoạn Beta và có thể gặp phải thời gian chết. Trong thời gian ngừng hoạt động, vị thế của bạn sẽ không kiếm được phí và bạn sẽ không thể xóa thanh khoản. <0> Đọc thêm.</0>"
-
 #: src/components/Settings/index.tsx
 msgid "Are you sure?"
 msgstr "Bạn có chắc không?"
@@ -358,6 +354,14 @@ msgstr "Địa chỉ bị chặn"
 msgid "Blocked from trading"
 msgstr ""
 
+#: src/nft/components/nftExploreBanner/NftExploreBanner.tsx
+msgid "Buy and sell NFTs across more listings at better prices."
+msgstr ""
+
+#: src/nft/components/details/AssetActivity.tsx
+msgid "By"
+msgstr ""
+
 #: src/components/PositionCard/index.tsx
 msgid "By adding liquidity you'll earn 0.3% of all trades on this pair proportional to your share of the pool. Fees are added to the pool, accrue in real time and can be claimed by withdrawing your liquidity."
 msgstr "Bằng cách thêm thanh khoản, bạn sẽ kiếm được 0,3% tất cả các giao dịch trên cặp tiền này tỷ lệ với phần của bạn trong nhóm. Phí được thêm vào nhóm, tích lũy trong thời gian thực và có thể được yêu cầu bằng cách rút tiền thanh khoản của bạn."
@@ -398,7 +402,6 @@ msgstr "Nhận"
 msgid "Claim <0/> for {0}"
 msgstr "Yêu cầu <0 /> cho {0}"
 
-#: src/components/Menu/index.tsx
 #: src/components/claim/AddressClaimModal.tsx
 #: src/components/claim/ClaimModal.tsx
 #: src/components/claim/ClaimModal.tsx
@@ -412,6 +415,10 @@ msgstr "Yêu cầu mã token UNI"
 #: src/components/AccountDetails/TransactionSummary.tsx
 msgid "Claim UNI reward for {0}"
 msgstr "Yêu cầu phần thưởng UNI cho {0}"
+
+#: src/components/WalletDropdown/AuthenticatedHeader.tsx
+msgid "Claim Uniswap NFT Airdrop"
+msgstr ""
 
 #: src/pages/Pool/PositionPage.tsx
 msgid "Claim fees"
@@ -577,13 +584,11 @@ msgid "Contract address"
 msgstr "Địa chỉ hợp đồng"
 
 #: src/components/WalletDropdown/AuthenticatedHeader.tsx
-#: src/nft/components/profile/view/ProfileAccountDetails.tsx
 #: src/theme/components/index.tsx
 msgid "Copied!"
 msgstr "Đã sao chép!"
 
 #: src/components/WalletDropdown/AuthenticatedHeader.tsx
-#: src/nft/components/profile/view/ProfileAccountDetails.tsx
 msgid "Copy"
 msgstr "Sao chép"
 
@@ -649,10 +654,6 @@ msgstr "Giá hiện tại"
 #: src/pages/AddLiquidity/index.tsx
 msgid "Current {0} Price:"
 msgstr "Giá {0} hiện tại:"
-
-#: src/components/Menu/index.tsx
-msgid "Dark Theme"
-msgstr "Chủ đề tối"
 
 #: src/components/WalletDropdown/DefaultMenu.tsx
 msgid "Dark theme"
@@ -721,10 +722,6 @@ msgstr "Thanh khoản tiền gửi"
 msgid "Description"
 msgstr "Sự miêu tả"
 
-#: src/nft/components/profile/view/ViewMyNftsAsset.tsx
-msgid "Deselected"
-msgstr ""
-
 #: src/pages/RemoveLiquidity/index.tsx
 msgid "Detailed"
 msgstr "Chi tiết"
@@ -738,17 +735,9 @@ msgstr "Chi tiết"
 msgid "Disconnect"
 msgstr "Ngắt kết nối"
 
-#: src/components/Menu/index.tsx
-msgid "Discord"
-msgstr "Bất hòa"
-
 #: src/components/TransactionConfirmationModal/index.tsx
 msgid "Dismiss"
 msgstr "Bỏ qua"
-
-#: src/components/Menu/index.tsx
-msgid "Docs"
-msgstr "Docs"
 
 #: src/components/NavBar/MenuDropdown.tsx
 msgid "Documentation"
@@ -757,10 +746,6 @@ msgstr "Tài liệu"
 #: src/pages/MigrateV2/index.tsx
 msgid "Don’t see one of your v2 positions? <0>Import it.</0>"
 msgstr "Bạn không thấy một trong các vị trí v2 của mình? <0> Nhập nó ngay.</0>"
-
-#: src/nft/components/profile/view/ViewMyNftsAsset.tsx
-msgid "ERC-1155 support coming soon"
-msgstr ""
 
 #: src/components/vote/DelegateModal.tsx
 msgid "Earned UNI tokens represent voting shares in Uniswap governance."
@@ -823,6 +808,10 @@ msgstr "Ước tính có thể khác do cài đặt gas ví của bạn"
 msgid "Estimated network fee"
 msgstr "Phí mạng ước tính"
 
+#: src/nft/components/details/AssetActivity.tsx
+msgid "Event"
+msgstr ""
+
 #: src/components/vote/ExecuteModal.tsx
 #: src/pages/Vote/VotePage.tsx
 msgid "Execute"
@@ -872,9 +861,17 @@ msgstr "Đã hết hạn"
 msgid "Explore"
 msgstr "Khám phá"
 
+#: src/nft/components/nftExploreBanner/NftExploreBanner.tsx
+msgid "Explore NFTs"
+msgstr ""
+
 #: src/pages/Pool/CTACards.tsx
 msgid "Explore Uniswap Analytics."
 msgstr "Khám phá Uniswap Analytics."
+
+#: src/components/Tokens/TokenDetails/InvalidTokenDetails.tsx
+msgid "Explore tokens"
+msgstr ""
 
 #: src/components/Popups/FailedNetworkSwitchPopup.tsx
 msgid "Failed to switch networks from the Uniswap Interface. In order to use Uniswap on {0}, you must change the network in your wallet."
@@ -927,10 +924,6 @@ msgstr "Các vị trí đầy đủ có thể kiếm được ít phí hơn các
 #: src/components/ErrorBoundary/index.tsx
 msgid "Get support on Discord"
 msgstr "Nhận hỗ trợ về Discord"
-
-#: src/components/Menu/index.tsx
-msgid "Help Center"
-msgstr "Trung tâm trợ giúp"
 
 #: src/components/NavBar/MenuDropdown.tsx
 msgid "Help center"
@@ -1009,6 +1002,10 @@ msgstr "Số dư {0} không đủ"
 msgid "Interface Settings"
 msgstr "Cài đặt giao diện"
 
+#: src/nft/components/nftExploreBanner/NftExploreBanner.tsx
+msgid "Introducing NFTs on Uniswap"
+msgstr ""
+
 #: src/state/mint/hooks.tsx
 #: src/state/mint/v3/hooks.tsx
 msgid "Invalid pair"
@@ -1032,7 +1029,6 @@ msgstr "Đã chọn dải ô không hợp lệ. Giá tối thiểu phải thấp
 msgid "Invalid recipient"
 msgstr "Người nhận không hợp lệ"
 
-#: src/components/Menu/index.tsx
 #: src/components/WalletDropdown/DefaultMenu.tsx
 #: src/components/WalletDropdown/LanguageMenu.tsx
 msgid "Language"
@@ -1053,15 +1049,10 @@ msgstr "Tìm hiểu về cung cấp tính thanh khoản"
 msgid "Learn more"
 msgstr "Tìm hiểu thêm"
 
-#: src/components/Menu/index.tsx
 #: src/components/NavBar/MenuDropdown.tsx
 #: src/components/PrivacyPolicy/index.tsx
 msgid "Legal & Privacy"
 msgstr "Pháp lý & Quyền riêng tư"
-
-#: src/components/Menu/index.tsx
-msgid "Light Theme"
-msgstr "Chủ đề ánh sáng"
 
 #: src/components/WalletDropdown/DefaultMenu.tsx
 msgid "Light theme"
@@ -1139,10 +1130,6 @@ msgstr "Tối đa:"
 #: src/components/swap/AdvancedSwapDetails.tsx
 msgid "Maximum sent"
 msgstr "Đã gửi tối đa"
-
-#: src/components/Menu/index.tsx
-msgid "Menu"
-msgstr "Thực đơn"
 
 #: src/components/PositionCard/Sushi.tsx
 #: src/components/PositionCard/V2.tsx
@@ -1223,10 +1210,6 @@ msgstr "Phí mạng"
 msgid "Network Warning"
 msgstr "Cảnh báo mạng"
 
-#: src/components/swap/SwapWarningDropdown.tsx
-msgid "Network fees exceed 50% of the swap amount!"
-msgstr "Phí mạng vượt quá 50% số tiền hoán đổi!"
-
 #: src/pages/Pool/index.tsx
 msgid "New Position"
 msgstr "Vị trí mới"
@@ -1299,10 +1282,6 @@ msgstr "Một khi bạn hài lòng với tỷ lệ, nhấp vào cung cấp để
 #: src/pages/Vote/VotePage.tsx
 msgid "Only UNI votes that were self delegated or delegated to another address before block {0} are eligible for voting."
 msgstr "Chỉ những phiếu bầu UNI đã được tự ủy quyền hoặc được ủy quyền cho một địa chỉ khác trước khối {0} đủ điều kiện để bỏ phiếu."
-
-#: src/components/DowntimeWarning/index.tsx
-msgid "Optimism is in Beta and may experience downtime. Optimism expects planned downtime to upgrade the network in the near future. During downtime, your position will not earn fees and you will be unable to remove liquidity. <0>Read more.</0>"
-msgstr "Tính năng lạc quan đang ở giai đoạn Beta và có thể gặp phải thời gian chết. Lạc quan mong đợi thời gian ngừng hoạt động theo kế hoạch để nâng cấp mạng trong tương lai gần. Trong thời gian ngừng hoạt động, vị trí của bạn sẽ không kiếm được phí và bạn sẽ không thể xóa thanh khoản. <0>Đọc thêm.</0>"
 
 #: src/components/Badge/RangeBadge.tsx
 msgid "Out of range"
@@ -1397,6 +1376,7 @@ msgstr "Các mã thông báo phổ biến"
 msgid "Preview"
 msgstr "Xem trước"
 
+#: src/nft/components/details/AssetActivity.tsx
 #: src/pages/RemoveLiquidity/index.tsx
 msgid "Price"
 msgstr "Giá"
@@ -1554,6 +1534,7 @@ msgid "Removed"
 msgstr "Loại bỏ"
 
 #: src/nft/components/collection/CollectionAsset.tsx
+#: src/nft/components/profile/view/ViewMyNftsAsset.tsx
 msgid "Removed from bag"
 msgstr ""
 
@@ -1569,23 +1550,19 @@ msgstr "Loại bỏ {0} {1} và {2} {3}"
 msgid "Removing {0} {1} and{2} {3}"
 msgstr "Loại bỏ {0} {1} và{2} {3}"
 
-#: src/components/Menu/index.tsx
-msgid "Request Features"
-msgstr "Yêu cầu tính năng"
-
 #: src/components/TransactionConfirmationModal/index.tsx
 #: src/components/TransactionConfirmationModal/index.tsx
 #: src/pages/CreateProposal/ProposalSubmissionModal.tsx
 msgid "Return"
 msgstr "Trở về"
 
+#: src/components/NavBar/SearchBar.tsx
+msgid "Search"
+msgstr ""
+
 #: src/components/SearchModal/CurrencySearch.tsx
 msgid "Search name or paste address"
 msgstr "Tìm kiếm tên hoặc dán địa chỉ"
-
-#: src/components/NavBar/SearchBar.tsx
-msgid "Search tokens"
-msgstr "Tìm kiếm mã thông báo"
 
 #: src/components/NavBar/SearchBar.tsx
 msgid "Search tokens and NFT collections"
@@ -1615,10 +1592,6 @@ msgstr "Chọn một hành động"
 msgid "Select token"
 msgstr "Chọn mã thông báo"
 
-#: src/nft/components/profile/view/ViewMyNftsAsset.tsx
-msgid "Selected"
-msgstr ""
-
 #: src/pages/AddLiquidity/index.tsx
 msgid "Selected Range"
 msgstr "Phạm vi đã chọn"
@@ -1634,6 +1607,10 @@ msgstr "Tự ủy quyền"
 #: src/nft/components/bag/BagHeader.tsx
 msgid "Sell"
 msgstr "Bán"
+
+#: src/nft/components/profile/view/ViewMyNftsAsset.tsx
+msgid "Selling ERC-1155s coming soon"
+msgstr ""
 
 #: src/pages/AddLiquidity/index.tsx
 #: src/pages/AddLiquidity/index.tsx
@@ -1784,14 +1761,6 @@ msgstr "Không tìm thấy ký hiệu"
 msgid "TVL"
 msgstr "TVL"
 
-#: src/components/Popups/SurveyPopup.tsx
-msgid "Take a 10 minute survey to help us improve your experience in the Uniswap app."
-msgstr "Hãy thực hiện một cuộc khảo sát trong 10 phút để giúp chúng tôi cải thiện trải nghiệm của bạn trong ứng dụng Uniswap."
-
-#: src/components/Popups/SurveyPopup.tsx
-msgid "Tell us what you think ↗"
-msgstr "Hãy cho chúng tôi biết suy nghĩ của bạn ↗"
-
 #: src/components/Popups/ClaimPopup.tsx
 msgid "Thanks for being part of the Uniswap community <0/>"
 msgstr "Cảm ơn bạn đã tham gia cộng đồng Uniswap <0/>"
@@ -1831,10 +1800,6 @@ msgstr "Ứng dụng thu thập địa chỉ ví của bạn một cách an toà
 #: src/components/WalletModal/PendingView.tsx
 msgid "The connection attempt failed. Please click try again and follow the steps to connect in your wallet."
 msgstr "Nỗ lực kết nối không thành công. Vui lòng nhấp vào thử lại và làm theo các bước để kết nối trong ví của bạn."
-
-#: src/components/swap/SwapWarningDropdown.tsx
-msgid "The cost of sending this transaction is more than half of the value of the input amount."
-msgstr "Chi phí gửi giao dịch này là hơn một nửa giá trị của số tiền đầu vào."
 
 #: src/components/Polling/index.tsx
 msgid "The current fast gas amount for sending a transaction on L1. Gas fees are paid in Ethereum's native currency Ether (ETH) and denominated in GWEI."
@@ -1905,6 +1870,10 @@ msgstr "Địa chỉ này bị chặn trên giao diện Uniswap Labs vì nó đ�
 msgid "This app uses the following third-party APIs:"
 msgstr "Ứng dụng này sử dụng các API của bên thứ ba sau:"
 
+#: src/nft/components/collection/CollectionAsset.tsx
+msgid "This item is not for sale"
+msgstr ""
+
 #: src/pages/AddLiquidity/index.tsx
 msgid "This pool must be initialized before you can add liquidity. To initialize, select a starting price for the pool. Then, enter your liquidity price range and deposit amount. Gas fees will be higher than usual due to the initialization transaction."
 msgstr "Nhóm này phải được khởi tạo trước khi bạn có thể thêm thanh khoản. Để khởi tạo, hãy chọn giá khởi điểm cho nhóm. Sau đó, nhập phạm vi giá thanh khoản và số tiền ký quỹ của bạn. Phí gas sẽ cao hơn bình thường do giao dịch khởi tạo."
@@ -1916,6 +1885,14 @@ msgstr "Đề xuất này có thể được thực hiện sau {0}."
 #: src/components/swap/SwapRoute.tsx
 msgid "This route optimizes your total output by considering split routes, multiple hops, and the gas cost of each step."
 msgstr "Lộ trình này tối ưu hóa tổng sản lượng của bạn bằng cách xem xét các lộ trình chia nhỏ, nhiều bước nhảy và chi phí xăng của mỗi bước."
+
+#: src/components/Tokens/TokenDetails/InvalidTokenDetails.tsx
+msgid "This token doesn't exist"
+msgstr ""
+
+#: src/components/Tokens/TokenDetails/InvalidTokenDetails.tsx
+msgid "This token doesn't exist on {chainName}"
+msgstr ""
 
 #: src/components/Tokens/TokenDetails/PriceChart.tsx
 msgid "This token doesn't have chart data because it hasn't been traded on Uniswap v3"
@@ -1933,6 +1910,11 @@ msgstr "Giao dịch này sẽ không thành công do biến động giá. Hãy t
 msgid "This transaction will not succeed either due to price movement or fee on transfer. Try increasing your slippage tolerance."
 msgstr "Giao dịch này sẽ không thành công do biến động giá hoặc phí chuyển nhượng. Hãy thử tăng khả năng chịu trượt của bạn."
 
+#: src/nft/components/details/AssetActivity.tsx
+msgid "Time"
+msgstr ""
+
+#: src/nft/components/details/AssetActivity.tsx
 #: src/pages/CreateProposal/ProposalActionDetail.tsx
 #: src/pages/CreateProposal/ProposalActionDetail.tsx
 #: src/pages/Swap/index.tsx
@@ -2377,10 +2359,6 @@ msgstr "Bạn chưa có thanh khoản trong pool này."
 #: src/components/Polling/ChainConnectivityWarning.tsx
 msgid "You may have lost your network connection."
 msgstr "Bạn có thể đã mất kết nối mạng của mình."
-
-#: src/components/swap/SwapWarningDropdown.tsx
-msgid "You might consider waiting until the network fees go down to complete this transaction."
-msgstr "Bạn có thể cân nhắc đợi cho đến khi phí mạng giảm để hoàn tất giao dịch này."
 
 #: src/pages/MigrateV2/MigrateV2Pair.tsx
 msgid "You must connect an account."
